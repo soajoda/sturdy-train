@@ -32,13 +32,13 @@ object Entity {
                     try {
                         client.run()
                     } catch (e: Exception) {
-                        err(e)
+                       // err(e)
                     }
                 }
 
                 client.connect(5000, host, tcpPort, udpPort)
             } catch (e: Exception) {
-                err(e)
+               // err(e)
             }
         }
     }
@@ -81,7 +81,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                        err(e)
+                       // err(e)
                     }
 
                     info(packet.message)
@@ -91,7 +91,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                        err(e)
+                       // err(e)
                     }
 
                     info(packet.message)
@@ -101,7 +101,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                        err(e)
+                      //  err(e)
                     }
 
                     info(packet.message)
