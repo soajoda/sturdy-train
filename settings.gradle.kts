@@ -1,3 +1,3 @@
 
-rootProject.name = "Darkdustry"
+rootProject.name = "cock"
 
