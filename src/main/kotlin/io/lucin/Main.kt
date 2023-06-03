@@ -55,8 +55,8 @@ private fun packet(): ConnectPacket {
     packet.version = -1
     packet.versionType = "official"
 
-    packet.name = "niggers " + Rand().random(0, 999999).toString()
-    packet.color = 25
+    packet.name = Rand().random(0, 999999).toString()
+    packet.color = Rand().random(0, 25)
     packet.locale = "ru"
 
     packet.mods = Seq()
