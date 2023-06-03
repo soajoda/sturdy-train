@@ -14,7 +14,7 @@ import mindustry.net.Packets.ConnectPacket
 import java.util.Timer
 import java.util.TimerTask
 
-var forbiddenServers: Seq<String> = Seq.with("io", "ECAN", "Darkdustry", "Pandorum")
+var forbiddenServers: Seq<String> = Seq.with("io", "ECAN", "Pandorum")
 
 fun main() {
     init()
