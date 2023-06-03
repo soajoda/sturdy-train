@@ -81,7 +81,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                     //   err(e)
+                        err(e)
                     }
 
                     info(packet.message)
@@ -91,7 +91,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                     //   err(e)
+                        err(e)
                     }
 
                     info(packet.message)
@@ -101,7 +101,7 @@ object Entity {
                     try {
                         packet.handled()
                     } catch (e: Exception) {
-                     //   err(e)
+                        err(e)
                     }
 
                     info(packet.message)
