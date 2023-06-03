@@ -2,7 +2,7 @@ name: Client matrix
 
 on: #[ workflow_dispatch ]
  schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 jobs:
   example_matrix:
     strategy:
