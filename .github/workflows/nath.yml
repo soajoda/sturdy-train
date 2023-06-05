@@ -1,8 +1,8 @@
 name: Client matrix
 
-on: #[ workflow_dispatch ]
- schedule:
-    - cron: '* * * * *'
+on: [ workflow_dispatch ]
+# schedule:
+#    - cron: '* * * * *'
 jobs:
   example_matrix:
     strategy:
